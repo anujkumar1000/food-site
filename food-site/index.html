@@ -26,25 +26,25 @@
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Blog
+                <a class="nav-link" href="#welcome">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">
+                  Product
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
             <form class="d-flex">
               <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
               <button class="btn1 me-2 px-3" type="submit">Search</button>
-              <span ><i class="bi bi-cart-check"></i></span>
-              <span><a href="./Login page/login.html"><i class="bi bi-box-arrow-in-right"></i></a></span>
+              <span ><i class="bi bi-cart-check" onclick="alert('You Are Ready To Shop!')"></i></span>
+              <span><a href="./Login page/login.html"><i class="bi bi-box-arrow-in-right" onclick="alert('You Are Logged Out!')"></i></a></span>
             </form>
           </div>
         </div>
@@ -62,8 +62,8 @@
                 <p>Organic food is food and drinks produced by methods complying with the standards of organic framing. 
                 Standards vary worldwide, but organic farming features practices that cycle resources.
                 </p>
-                <button class="mbtn1 mt-4">Read More</button>
-                <button class="mbtn2">Shop Now</button>
+                <button class="mbtn1 mt-4"><a href="https://www.healthline.com/nutrition/healthy-fruit#How-to-Peel:-Apples" target="_blank" class="readMore">Read More</a></button>
+                <button class="mbtn2"><a href="#products" class="a-hover">Shop Now</a></button>
                </div> 
             </div>
         </div>
@@ -71,7 +71,7 @@
 
       <!-- ABOUT -->
 
-      <section class="about py-5">
+      <section id="about" class="about py-5">
         <div class="container py-5">
             <div class="row py-5">
                 <div class="col-lg-5 py-5 offset-lg-7 col-md-6 col-sm-12 col-12">
@@ -81,14 +81,15 @@
                     <p>Organic food is food and drinks produced by methods complying with the standards of organic framing. 
                     Standards vary worldwide, but organic farming features practices that cycle resources.
                     </p>
-                    <button class="mbtn1 mt-4">Read More</button>
+                    <button class="mbtn1 mt-4"><a href="https://www.healthline.com/nutrition/healthy-fruit#How-to-Peel:-Apples" target="_blank" class="readMore">Read More</a></button>
                 </div>
             </div>
         </div>
       </section>
 
       <!-- WELCOME -->
-      <section class="welcome text-center pb-5">
+
+      <section id="welcome" class="welcome text-center pb-5">
         <div class="container py-5">
             <div class="row py-5 text-white">
                 <div class="col-lg-6 m-auto">
@@ -134,7 +135,8 @@
       </section>
 
       <!-- PRODUCTS -->
-      <section class="products bg-light">
+
+      <section id="products" class="products bg-light">
         <div class="container">
             <div class="row py-5 text-center">
                 <div class="col-lg-6 m-auto">
@@ -160,7 +162,7 @@
                             <h4 class="head1">Orange</h4>
                             <p class="per1">500g</p>
                             <h4 class="head1">Rs. 30</h4>
-                            <button class="btnc my-4">ADD TO CART</button>
+                            <button class="btnc my-4" onclick="alert('Added to cart!')">ADD TO CART</button>
                         </div>
                     </div>
                 </div>
@@ -179,7 +181,7 @@
                             <h4 class="head1">Papaya</h4>
                             <p class="per1">per Pcs</p>
                             <h4 class="head1">Rs. 60</h4>
-                            <button class="btnc my-4">ADD TO CART</button>
+                            <button class="btnc my-4" onclick="alert('Added to cart!')">ADD TO CART</button>
                         </div>
                     </div>
                 </div>
@@ -198,21 +200,22 @@
                             <h4 class="head1">Apple</h4>
                             <p class="per1">per Pcs</p>
                             <h4 class="head1">Rs. 12</h4>
-                            <button class="btnc my-4">ADD TO CART</button>
+                            <button class="btnc my-4" onclick="alert('Added to cart!')">ADD TO CART</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row text-center py-5">
                <div class="col-lg-6 m-auto">
-                <button class="mbtn1">Read More</button>
+                <button class="mbtn1"><a href="https://www.healthline.com/nutrition/healthy-fruit#How-to-Peel:-Apples" target="_blank" class="readMore">Read More</a></button>
                </div> 
             </div>
         </div>
       </section>
 
       <!-- CONTACT -->
-      <section class="contact py-5">
+
+      <section id="contact" class="contact py-5">
         <div class="container py-3">
             <div class="row">
                 <div class="col-lg-7">
